@@ -175,6 +175,11 @@ ol {
   transition: all 0.3s ease-in-out;
 }
 
+.primary-btn.alpaka {
+  background: #8bff23;
+  color: #000;
+}
+
 .primary-btn:hover {
   background: #b700ff;
 }
@@ -625,6 +630,10 @@ ol {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.ci-number-plus {
+  padding-left: 60px;
 }
 
 .counter-item .ci-text {
@@ -1663,6 +1672,11 @@ ol {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 45px;
+}
+
+.section-title span.alpaka {
+  color: #8bff23;
+  font-size: 30px;
 }
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
