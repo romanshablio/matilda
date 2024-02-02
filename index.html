@@ -10,7 +10,7 @@
         content="дрянная альпака, альпака, визитки, 
     разработка дизайна визиток, разработать дизайн термопринта, художник, художница, нарисовать картину, нарисовать портрет">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Matilda</title>
+    <title>Matilda | Главная страница</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
@@ -47,8 +48,8 @@
                     <div class="main-menu mobile-menu">
                         <ul>
                             <li class="active"><a href="./index.html">Главная</a></li>
-                            <li><a href="./about-us.html">Обо мне</a></li>
-                            <li><a href="./gallery.html">Галлерея</a> </li>
+                            <li><a href="./about-us.html">Дрянная альпака</a></li>
+                            <li><a href="./gallery.html">Галерея</a> </li>
                             <!-- <li><a href="./contact.html">Контакты</a></li> -->
                         </ul>
                     </div>
@@ -69,7 +70,7 @@
                         <h2>Мастерская творчества</h2>
                         <p>Давай окунемся в магию <br> творчества вместе!
                         </p>
-                        <a href="#about" class="primary-btn">Так, а ещё</a>
+                        <a href="#about" class="primary-btn">Давай!</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +112,7 @@
     <!-- About Us Section End -->
 
     <!-- Services Section Begin -->
-    <section class="services-section spad">
+    <section class="services-section spad" id="work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -123,33 +124,55 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <img src="img/services/service-2.png" alt="">
-                        <h4>Сменить лого</h4>
-                        <p>Что-то написать</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
+                    <div id="illustration" class="service-item">
                         <img src="img/services/service-2.png" alt="">
                         <h4>Иллюстрации</h4>
                         <p>Рисую иллюстрации на заказ. Любые запросы, ограничение - лишь воображение!</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
+                    <div id="games" class="service-item">
                         <img src="img/services/service-2.png" alt="">
-                        <h4>Сменить лого</h4>
-                        <p>Что-то написать</p>
+                        <h4>Карты и игры</h4>
+                        <p>Разрабатываю дизайны карт таро, метафорических карт, а также нстольные игры. </p>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <div id="arts" class="service-item">
+                        <img src="img/services/service-2.png" alt="">
+                        <h4>Интерьерные картины</h4>
+                        <p>Для реализации смелых и ярких интерьеров я нарисую для вашего дома, помещения или квартиры
+                            интерьерные картины.</p>
+                    </div>
+                </div>
+                <p>*нажми на карточку, чтобы открыть галерею работ</p>
             </div>
         </div>
     </section>
     <!-- Services Section End -->
 
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto-section set-bg" data-setbg="img/ctc-bg.jpg" id="callSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="ctc-text">
+                        <h2>Твоя идея может стать вдохновением</h2>
+                        <p>Хочешь задизайнить свою идею и тебе нужен человек, который в этом хорошо
+                            разбирается, то смело обращайся ко мне. Я всегда отвечу! Я работаю с командой
+                            профессиональных художников и ты можешь стать частью нашей дружной команды.</p>
+                        <a href="#" class="primary-btn ctc-btn">Хочу к тебе в команду!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+
     <!-- Portfolio Section Begin -->
-    <section class="portfolio-section spad">
+    <section class="portfolio-section spad" id="portfolioSection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -162,40 +185,42 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="portfolio-item set-bg large-item" data-setbg="img/portfolio/portfolio-1.jpg">
-                        <div class="pi-hover">
-                            <a href="#" class="chain-icon"><i class="fa fa-chain"></i></a>
-                            <a href="img/portfolio/portfolio-1.jpg" class="search-icon image-popup"><i
-                                    class="fa fa-search"></i></a>
+                        <div class="pi-hover"> <a href="img/portfolio/portfolio-1.jpg"
+                                class="search-icon image-popup"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="portfolio-item set-bg" data-setbg="img/portfolio/portfolio-2.jpg">
-                        <div class="pi-hover">
-                            <a href="#" class="chain-icon"><i class="fa fa-chain"></i></a>
-                            <a href="img/portfolio/portfolio-2.jpg" class="search-icon image-popup"><i
+                        <div class="pi-hover"><a href="img/portfolio/portfolio-2.jpg" class="search-icon image-popup"><i
                                     class="fa fa-search"></i></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item set-bg" data-setbg="img/portfolio/portfolio-3.jpg">
-                                <div class="pi-hover">
-                                    <a href="#" class="chain-icon"><i class="fa fa-chain"></i></a>
-                                    <a href="img/portfolio/portfolio-3.jpg" class="search-icon image-popup"><i
-                                            class="fa fa-search"></i></a>
+                                <div class="pi-hover"><a href="img/portfolio/portfolio-3.jpg"
+                                        class="search-icon image-popup"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item set-bg" data-setbg="img/portfolio/portfolio-4.jpg">
-                                <div class="pi-hover">
-                                    <a href="#" class="chain-icon"><i class="fa fa-chain"></i></a>
-                                    <a href="img/portfolio/portfolio-4.jpg" class="search-icon image-popup"><i
-                                            class="fa fa-search"></i></a>
+                                <div class="pi-hover"><a href="img/portfolio/portfolio-4.jpg"
+                                        class="search-icon image-popup"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 m-auto">
+                    <div class="ctc-text">
+                        <h4>Хочешь посмотреть больше моих работ?</h4>
+                        <p>Жми на кнопку, и выбирай на какие работы хочешь взглянуть</p>
+                        <a href="#work" class="primary-btn">Нажми на меня</a>
+
                     </div>
                 </div>
             </div>
@@ -204,18 +229,20 @@
     <!-- Portfolio Section End -->
 
     <!-- Counter Section Begin -->
-    <section class="counter-section spad">
+    <section class="counter-section spad" id="counterSection">
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-6">
                     <div class="counter-text">
                         <div class="section-title">
                             <span>Цифры говорят сами за себя</span>
                             <h2>Я имею огромный <br />опыт</h2>
                         </div>
-                        <a href="./gallery.html" class="primary-btn">Хочу еще</a>
+                        <a href="./gallery.html" class="primary-btn">Показать контакты</a>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div class="counter-item">
                         <div class="ci-number count">
@@ -228,10 +255,10 @@
                         </div>
                     </div>
                     <div class="counter-item">
-                        <div class="ci-number count">
+                        <div class="ci-number count" style="display: inline;">
                             15
                         </div>
-                        <p class="ci-number ci-number-plus">+</p>
+                        <p class="ci-number ci-number-plus" style="display: inline;">+</p>
                         <div class="ci-text">
                             <h4>Стилей рисования</h4>
                             <p>Мое мастерство не знает границ. Я и сама считаю, что человек - существо с безграничными
@@ -303,22 +330,7 @@
                 <div class="col-lg-6">
                     <div class="testimonial-item">
                         <div class="ti-pic">
-                            <img src="img/testimonial/testimonial-4.jpg" alt="">
-                        </div>
-                        <div class="ti-text">
-                            <div class="ti-title">
-                                <h4>Дмитрий Р.</h4>
-                                <span>Заказчик</span>
-                            </div>
-                            <p>Очень приятный в общении специалист, быстро нашли общий язык в моем замороченном запросе,
-                                результат порадовал!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="testimonial-item">
-                        <div class="ti-pic">
-                            <img src="img/testimonial/testimonial-4.jpg" alt="">
+                            <img src="img/testimonial/testimonial-5.jpg" alt="">
                         </div>
                         <div class="ti-text">
                             <div class="ti-title">
@@ -331,28 +343,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-item">
+                        <div class="ti-pic">
+                            <img src="img/testimonial/testimonial-4.jpg" alt="">
+                        </div>
+                        <div class="ti-text">
+                            <div class="ti-title">
+                                <h4>Дмитрий Р.</h4>
+                                <span>Заказчик</span>
+                            </div>
+                            <p>Очень приятный в общении специалист, быстро нашли общий язык в моем замороченном запросе,
+                                результат порадовал!</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- Testimonial Section End -->
-
-    <!-- Call To Action Section Begin -->
-    <section class="callto-section set-bg" data-setbg="img/ctc-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 m-auto">
-                    <div class="ctc-text">
-                        <h2>Твоя идея может стать вдохновением</h2>
-                        <p>Если тебе нужен художник, чтобы создать иллюстрацию. логотип, разработать дизайн для карт
-                            таро. Либо ты хочешь задизайнить свою идею и тебе нужен человек, который в этом хорошо
-                            разбирается, то смело обращайся ко мне. Я всегда отвечу!</p>
-                        <a href="#" class="primary-btn ctc-btn">Хочу связаться с тобой!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Call To Action Section End -->
 
     <!-- Member Section Begin -->
     <section id="alpaka" class="member-section spad">
@@ -473,6 +483,76 @@
     </section>
     <!-- Footer Section End -->
 
+    <!--Appearing windows-->
+    <!-- ILLUSRTATIONS -->
+    <div class="illustrationWindow">
+        <div>
+            <p id="closeillWindow" class="closeWindow">Закрыть</p>
+        </div>
+        <div class="container">
+            <p class="banner">В галерее имеются работы на продажу. Выставленные на продажу картины помечены номерным
+                лотом. Для покупки нажмите на интересующий лот и перейдите по ссылке.</p>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item set-bg" data-setbg="img/gallery/illustration_1.jpg">
+                        <div class="pi-hover">
+                            <a href="#" class="chain-icon"><i class="fa fa-chain"></i></a>
+                            <a href="img/gallery/illustration_1.jpg" class="search-icon image-popup"><i
+                                    class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <p class="lot">Лот №1</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/gallery/illustration_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/gallery/illustration_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/gallery/illustration_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/gallery/illustration_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/gallery/illustration_1.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- GAMES -->
+    <div class="gameWindow">
+        <div>
+            <p id="closegamWindow" class="closeWindow">Закрыть</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>First art</p>
+                <p>Second art</p>
+                <p>Third art</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- ARTS -->
+    <div class="artsWindow">
+        <div>
+            <p id="closeartWindow" class="closeWindow">Закрыть</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>First art</p>
+                <p>Second art</p>
+                <p>Third art</p>
+            </div>
+
+        </div>
+    </div>
+    <!--Appearing windows-->
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -481,6 +561,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/appearence.js"></script>
 </body>
 
 </html>

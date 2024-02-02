@@ -1,0 +1,65 @@
+.illustrationWindow,
+.gameWindow,
+.artsWindow {
+  display: none;
+  width: 80%;
+  height: 80%;
+  background: #ff5bb561;
+  border-radius: 13px;
+  border: 5px;
+  border-style: double;
+  border-color: rgb(250, 49, 233);
+  overflow: scroll;
+  z-index: 99;
+}
+
+.illustrationWindow::-webkit-scrollbar,
+.gameWindow::-webkit-scrollbar,
+.artsWindow::-webkit-scrollbar {
+  width: 0px;
+}
+
+.is-active {
+  display: block;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+
+.closeWindow {
+  position: fixed;
+  top: 5%;
+  right: 15%;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.closeWindow:hover {
+  cursor: pointer;
+  user-select: none;
+  color: red;
+  text-decoration: overline;
+}
+
+.banner {
+  background: #e32879;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  font-variant: all-small-caps;
+  font-weight: bold;
+}
+
+.lot {
+  position: absolute;
+  padding: 3px;
+  top: 0px;
+  color: #fff;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-left: 3px;
+  z-index: 1;
+}

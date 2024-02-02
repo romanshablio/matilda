@@ -39,6 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   scroll-behavior: smooth;
+  background: #191919;
 }
 
 h1,
@@ -141,8 +142,8 @@ ol {
 }
 
 .spad {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .spad-2 {
@@ -393,6 +394,9 @@ ol {
 
 .about-us-section {
   background: #191919;
+  /* transform: translateX(-1600px); */
+  opacity: -1;
+  transition: opacity 2s ease-in-out;
 }
 
 .as-pic img {
@@ -470,12 +474,14 @@ ol {
   background: #191919;
   padding-top: 0;
   padding-bottom: 80px;
+  transform: translateX(1500px);
+  transition: transform 2s ease;
 }
 
 .service-item {
   text-align: center;
   background: #222222;
-  padding: 46px 50px 0;
+  padding: 40px 20px 0;
   height: 325px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -485,6 +491,7 @@ ol {
 
 .service-item:hover {
   border-bottom: 3px solid #e32879;
+  cursor: pointer;
 }
 
 .service-item h4 {
@@ -500,8 +507,12 @@ ol {
 -----------------------*/
 
 .portfolio-section {
+  position: relative;
   background: #222222;
   padding-bottom: 0;
+  opacity: -2;
+  transition: opacity 3s ease;
+  z-index: 1;
 }
 
 .portfolio-section .section-title {
@@ -606,6 +617,8 @@ ol {
   padding-top: 755px;
   margin-top: -640px;
   padding-bottom: 70px;
+  transform: translateX(1500px);
+  transition: transform 1s ease;
 }
 
 .counter-text {
@@ -735,6 +748,9 @@ ol {
 
 .callto-section {
   padding: 80px 0;
+  transform: translateX(-1000px);
+  transition: transform 0.5s ease-in-out, opacity 1s ease;
+  opacity: 0;
 }
 
 .ctc-text {
@@ -750,12 +766,22 @@ ol {
 
 .ctc-text p {
   color: #ffffff;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 
 .ctc-text .primary-btn.ctc-btn {
   background: #ffffff;
   color: #e32879;
+}
+
+.ctc-text h4 {
+  font-size: 28px;
+  color: #fff;
+  padding: 15px;
+}
+
+.ctc-text a {
+  margin-bottom: 15px;
 }
 
 /*---------------------
@@ -1876,4 +1902,9 @@ ol {
   .contact-text .ct-item .ci-icon span {
     font-size: 22px;
   }
+}
+
+.animation {
+  transform: translateX(0);
+  opacity: 1;
 }
