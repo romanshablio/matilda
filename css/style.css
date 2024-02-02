@@ -37,9 +37,9 @@ body {
   height: 100%;
   font-family: "Libre Franklin", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   scroll-behavior: smooth;
   background: #191919;
+  overflow-x: hidden;
 }
 
 h1,
@@ -474,8 +474,9 @@ ol {
   background: #191919;
   padding-top: 0;
   padding-bottom: 80px;
-  transform: translateX(1500px);
-  transition: transform 2s ease;
+  transform: translateX(300px);
+  opacity: -1;
+  transition: transform 2s ease, opacity 2s ease;
 }
 
 .service-item {
@@ -617,8 +618,9 @@ ol {
   padding-top: 755px;
   margin-top: -640px;
   padding-bottom: 70px;
-  transform: translateX(1500px);
-  transition: transform 1s ease;
+  transform: translateX(300px);
+  opacity: -1;
+  transition: transform 2s ease, opacity 2s ease;
 }
 
 .counter-text {
@@ -748,9 +750,9 @@ ol {
 
 .callto-section {
   padding: 80px 0;
-  transform: translateX(-1000px);
-  transition: transform 0.5s ease-in-out, opacity 1s ease;
-  opacity: 0;
+  transform: translateX(-300px);
+  opacity: -1;
+  transition: transform 2s ease, opacity 2s ease;
 }
 
 .ctc-text {

@@ -8,6 +8,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animation");
+      return;
     }
   });
 });
@@ -17,6 +18,7 @@ const secondObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animation");
+      return;
     }
   });
 });
@@ -26,6 +28,7 @@ const thridObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animation");
+      return;
     }
   });
 });
@@ -35,6 +38,7 @@ const fourthObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animation");
+      return;
     }
   });
 });
@@ -44,6 +48,7 @@ const fifthObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animation");
+      return;
     }
   });
 });
