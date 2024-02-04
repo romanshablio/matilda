@@ -329,6 +329,10 @@ ol {
   color: #e32879;
 }
 
+.main-menu ul li.active_link_alpaka a {
+  color: #8bff23;
+}
+
 .main-menu ul li:hover > a {
   color: #e32879;
 }
@@ -669,6 +673,9 @@ ol {
 .testimonial-section {
   background: #191919;
   padding-top: 0;
+  transform: translateX(300);
+  opacity: -1;
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
 }
 
 .testimonial-slider {
@@ -1596,8 +1603,12 @@ ol {
 -----------------------*/
 
 .gallery-section {
+  position: relative;
   background: #222222;
   padding-bottom: 80px;
+  z-index: 1;
+  opacity: -1;
+  transition: opacity 2s ease-in;
 }
 
 .gallery-section .gallery-controls {

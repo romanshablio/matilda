@@ -47,9 +47,19 @@
                 <div class="col-lg-10 col-md-10">
                     <div class="main-menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Главная</a></li>
-                            <li><a href="./about-us.html">Дрянная альпака</a></li>
-                            <li><a href="./gallery.html">Галерея</a> </li>
+                            <li class="active"><a href="./index.html">Matilda</a>
+                                <!-- <ul class="dropdown">
+                                    <li><a href="#about">Обо мне</a></li>
+                                    <li><a href="#work">Работы на продажу</a></li>
+                                    <li><a href="#callSection">Сотрудничество</a></li>
+                                    <li><a href="#counterSection">Мое портфолио</a></li>
+                                    <li><a href="#counterSection">Об опыте</a></li>
+                                    <li><a href="#testimonialSection">Отзывы</a></li>
+                                    <li><a href="#">О Дрянной альпаке</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="./alpaka.html">Дрянная альпака</a></li>
+                            <!-- <li><a href="./blog.html">Галерея</a> </li> -->
                             <!-- <li><a href="./contact.html">Контакты</a></li> -->
                         </ul>
                     </div>
@@ -103,7 +113,7 @@
                         <p class="f-para">Но и это еще не все! Я основатель проекта Дрянная Альпака. Чтобы узнать
                             больше, жми на кнопку ниже!
                         </p>
-                        <a href="#alpaka" class="primary-btn">Дрянная альпака?</a>
+                        <a href="#alpaka_jacor" class="primary-btn">Дрянная альпака?</a>
                     </div>
                 </div>
             </div>
@@ -169,10 +179,86 @@
         </div>
     </section>
     <!-- Call To Action Section End -->
-
+    <!-- Gallery Section Begin -->
+    <div class="gallery-section spad" id="gallerySection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Мое портфолио</span>
+                        <h2>Ощути эту реальность по-настоящему</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery-controls">
+                        <ul>
+                            <li class="active" data-filter=".all">Все работы</li>
+                            <li data-filter=".illustration">Иллюстрации</li>
+                            <li data-filter=".arts">Картины</li>
+                            <li data-filter=".logos">Логотипы</li>
+                            <li data-filter=".print">Печать</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery-filter">
+                <div class="col-lg-6 mix all illustration">
+                    <div class="gs-item">
+                        <img src="img/gallery/illustration_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 mix all arts">
+                            <div class="gs-item">
+                                <img src="img/gallery/arts_1.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mix all logos">
+                            <div class="gs-item">
+                                <img src="img/gallery/logos_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mix all print">
+                            <div class="gs-item">
+                                <img src="img/gallery/prints_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mix all illustration">
+                            <div class="gs-item">
+                                <img src="img/gallery/illustration_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 mix all logos">
+                            <div class="gs-item">
+                                <img src="img/gallery/logos_2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mix all print">
+                            <div class="gs-item">
+                                <img src="img/gallery/prints_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mix all logos">
+                    <div class="gs-item">
+                        <img src="img/gallery/logos_3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section End -->
 
     <!-- Portfolio Section Begin -->
-    <section class="portfolio-section spad" id="portfolioSection">
+    <!-- <section class="portfolio-section spad" id="portfolioSection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -225,7 +311,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Portfolio Section End -->
 
     <!-- Counter Section Begin -->
@@ -272,7 +358,7 @@
     <!-- Counter Section End -->
 
     <!-- Testimonial Section Begin -->
-    <section class="testimonial-section spad">
+    <section class="testimonial-section spad" id="testimonialSection">
         <div class="container">
             <div class="row testimonial-slider owl-carousel">
                 <div class="col-lg-6">
@@ -376,22 +462,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="member-item set-bg" data-setbg="img/member/1.jpeg">
-                        <div class="mi-text">
-                            <div class="mt-title">
-                                <h4>Термопринты
-                                    на одежду</h4>
-                            </div>
-                            <p>Твоя любимая футболка несколько потерта и выглядит скучно? Не бросай ее, вдохни новую
-                                жизнь с помощью наших термопринтов! Разнообразь свой гардероб и придай своей одежде
-                                уникальный образ.</p>
 
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="member-item set-bg" data-setbg="img/member/2.jpeg">
                         <div class="mi-text">
                             <div class="mt-title">
@@ -407,7 +479,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="member-item set-bg" data-setbg="img/member/3.jpeg">
                         <div class="mi-text">
                             <div class="mt-title">
@@ -426,7 +498,7 @@
                 </div>
             </div>
             <div class="row col-lg-3 m-auto">
-                <a href="#" class="primary-btn alpaka">Алло, это Альпака?</a>
+                <a href="./alpaka.html" class="primary-btn alpaka">Алло, это Альпака?</a>
             </div>
         </div>
     </section>

@@ -3,6 +3,8 @@ let aboutSection = document.getElementById("about");
 let callSection = document.getElementById("callSection");
 let portfolioSection = document.getElementById("portfolioSection");
 let counterSection = document.getElementById("counterSection");
+let gallerySection = document.getElementById("gallerySection");
+let testimonialSection = document.getElementById("testimonialSection");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -34,6 +36,16 @@ const thridObserver = new IntersectionObserver((entries) => {
 });
 thridObserver.observe(callSection);
 
+// const fourthObserver = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add("animation");
+//       return;
+//     }
+//   });
+// });
+// fourthObserver.observe(portfolioSection);
+
 const fourthObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -42,7 +54,7 @@ const fourthObserver = new IntersectionObserver((entries) => {
     }
   });
 });
-fourthObserver.observe(portfolioSection);
+fourthObserver.observe(gallerySection);
 
 const fifthObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -53,3 +65,13 @@ const fifthObserver = new IntersectionObserver((entries) => {
   });
 });
 fifthObserver.observe(counterSection);
+
+const testimonialObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animation");
+      return;
+    }
+  });
+});
+testimonialObserver.observe(testimonialSection);
