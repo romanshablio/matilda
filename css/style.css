@@ -1,12 +1,3 @@
-/******************************************************************
-  Template Name: Hazze
-  Description: Manup Fashion HTML Template
-  Author: Colorlib
-  Author URI: http://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
-
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -31,6 +22,27 @@
 
 /* Template default CSS
 /*----------------------------------------*/
+
+@font-face {
+  font-family: "rubik";
+  src: local("rubik"), url("../fonts/rubik.ttf") format("ttf"),
+    url("../fonts/rubik.woff") format("woff"),
+    url("../fonts/rubik.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "french";
+  src: local("french"), url("../fonts/french.ttf") format("ttf"),
+    url("../fonts/french.woff") format("woff"),
+    url("../fonts/french.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "french-thin";
+  src: local("french-thin"), url("../fonts/french-thin.ttf") format("ttf"),
+    url("../fonts/french-thin.woff") format("woff"),
+    url("../fonts/french-thin.woff2") format("woff2");
+}
 
 html,
 body {
@@ -133,6 +145,7 @@ ol {
   color: #ffffff;
   font-weight: 700;
   margin-top: 14px;
+  font-family: "french";
 }
 
 .set-bg {
@@ -381,6 +394,7 @@ ol {
 
 .hs-text h2 {
   color: #ffffff;
+  font-family: "french";
   font-size: 60px;
   font-weight: 700;
   margin-top: 30px;
@@ -398,9 +412,9 @@ ol {
 
 .about-us-section {
   background: #191919;
-  /* transform: translateX(-1600px); */
-  opacity: -1;
-  transition: opacity 2s ease-in-out;
+  transform: translateX(-300px);
+  opacity: -10;
+  transition: opacity 3s ease-in-out;
 }
 
 .as-pic img {
@@ -427,6 +441,7 @@ ol {
 
 .as-text p.f-para {
   margin-bottom: 10px;
+  font-family: "french-thin";
 }
 
 .as-text p.s-para {
@@ -525,9 +540,8 @@ ol {
 }
 
 .portfolio-item {
-  height: 393px;
-  margin-left: -15px;
-  margin-right: -15px;
+  height: 320px;
+  margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -771,6 +785,7 @@ ol {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: "french";
 }
 
 .ctc-text p {
@@ -882,8 +897,8 @@ ol {
 
 .footer-section {
   background: #191919;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-option {
@@ -1715,7 +1730,21 @@ ol {
 
 .section-title span.alpaka {
   color: #8bff23;
-  font-size: 30px;
+  font-family: "rubik";
+  font-size: 50px;
+}
+
+.s-main-type-1__social-item {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 6px;
+  color: inherit;
+  width: 36px;
+  height: 36px;
 }
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/

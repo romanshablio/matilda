@@ -2,25 +2,44 @@
 .gameWindow,
 .artsWindow {
   display: none;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   padding: 0 7px 0 7px;
   background: #ff5bb561;
-  border-radius: 13px;
-  border: 5px;
-  border-style: double;
-  border-color: rgb(250, 49, 233);
+  box-shadow: 3px 3px 15px 5px slategrey;
   overflow: scroll;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
+
+.contacts {
+  display: none;
+  width: 80%;
+  height: 35%;
+  padding: 0 7px 0 7px;
+  box-shadow: 3px 3px 15px 5px slategrey;
+  color: white;
+  border-radius: 13px;
+  font-family: cursive;
+  text-align: center;
+  font-size: 22px;
+  overflow: scroll;
+  padding-top: 60px;
   z-index: 99;
 }
 
-.illustrationWindow::-webkit-scrollbar,
-.gameWindow::-webkit-scrollbar,
-.artsWindow::-webkit-scrollbar {
-  width: 0px;
+.contacts ul li {
+  list-style: none;
 }
 
 .is-active {
+  display: block;
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+.is-active-for-contact {
   display: block;
   position: fixed;
   top: 10%;
@@ -29,16 +48,31 @@
 
 .closeWindow {
   position: fixed;
-  top: 5%;
-  right: 15%;
+  top: 2%;
+  right: 6%;
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 20px;
+  font-family: fantasy;
+  transition: color 0.5s ease-in-out, text-decoration 0.5s ease-in-out;
 }
 
-.closeWindow:hover {
+.closeContactWindow {
+  position: fixed;
+  top: 11%;
+  right: 12%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: fantasy;
+  transition: color 0.5s ease-in-out, text-decoration 0.5s ease-in-out;
+}
+
+.closeWindow:hover,
+.closeContactWindow:hover,
+.closeWindow:focus,
+.closeContactWindow:focus {
   cursor: pointer;
   user-select: none;
-  color: red;
+  color: rgb(255, 0, 200);
   text-decoration: overline;
 }
 
@@ -48,21 +82,40 @@
   border-radius: 5px;
   text-align: center;
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-variant: all-small-caps;
   font-weight: bold;
+  box-shadow: 0px 0px 10px 10px #ff00ebad;
 }
 
 .lot {
   position: absolute;
   padding: 3px;
-  top: 0px;
+  top: 10px;
   color: #fff;
   border: 1px black solid;
   border-radius: 5px;
   margin-top: 3px;
   margin-left: 3px;
   z-index: 1;
+}
+
+.calltoalpaka-text {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.illustrationWindow::-webkit-scrollbar,
+.gameWindow::-webkit-scrollbar,
+.artsWindow::-webkit-scrollbar,
+.contacts::-webkit-scrollbar {
+  width: 0px;
 }
 
 /* .about-us-section {
