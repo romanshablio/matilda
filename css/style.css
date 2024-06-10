@@ -898,6 +898,21 @@ ol {
   Footer
 -----------------------*/
 
+.footer-title span {
+  color: #e32879;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.footer-title span.alpaka {
+  display: block;
+  color: #8bff23;
+  font-family: "rubik";
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
 .footer-section {
   background: #191919;
   padding-top: 30px;
@@ -1043,6 +1058,21 @@ ol {
 .copyright-text a:hover {
   color: #e32879;
 }
+
+.footer-name {
+  color: #e32879 !important;
+  margin-bottom: 50px !important;
+}
+
+.ft-text h2{
+  color: #ffffff;
+    font-family: "french";
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 
 /* ------------------------------ Other Pages Styles ------------------------------ */
 
