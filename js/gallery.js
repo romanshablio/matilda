@@ -1,44 +1,44 @@
 //Gallery for sales code
 
-let illustrationWindow = document.getElementById("illustration");
-let gamesWindow = document.getElementById("games");
-let artsWindow = document.getElementById("arts");
-let closeillButton = document.getElementById("closeillWindow");
-let closegamWindow = document.getElementById("closegamWindow");
-let closeartWindow = document.getElementById("closeartWindow");
+//let illustrationWindow = document.getElementById("illustration");
+//let gamesWindow = document.getElementById("games");
+//let artsWindow = document.getElementById("arts");
+// let closeillButton = document.getElementById("closeillWindow");
+// let closegamWindow = document.getElementById("closegamWindow");
+// let closeartWindow = document.getElementById("closeartWindow");
 
-console.log(illustrationWindow);
-console.log(closeillButton);
+// console.log(illustrationWindow);
+// console.log(closeillButton);
 
-illustrationWindow.addEventListener("click", function () {
-  document.querySelector(".illustrationWindow").classList.add("is-active");
-  console.log("Окно иллюстраций открылось.");
-});
+// illustrationWindow.addEventListener("click", function () {
+//   document.querySelector(".illustrationWindow").classList.add("is-active");
+//   console.log("Окно иллюстраций открылось.");
+// });
 
-closeillButton.addEventListener("click", function () {
-  document.querySelector(".illustrationWindow").classList.remove("is-active");
-  console.log("Окно иллюстраций закрылось.");
-});
+// closeillButton.addEventListener("click", function () {
+//   document.querySelector(".illustrationWindow").classList.remove("is-active");
+//   console.log("Окно иллюстраций закрылось.");
+// });
 
-gamesWindow.addEventListener("click", function () {
-  document.querySelector(".gameWindow").classList.add("is-active");
-  console.log("Окно карт таро и настольных игр открылось.");
-});
+// gamesWindow.addEventListener("click", function () {
+//   document.querySelector(".gameWindow").classList.add("is-active");
+//   console.log("Окно карт таро и настольных игр открылось.");
+// });
 
-closegamWindow.addEventListener("click", function () {
-  document.querySelector(".gameWindow").classList.remove("is-active");
-  console.log("Окно карт таро и настольных игр закрылось.");
-});
+// closegamWindow.addEventListener("click", function () {
+//   document.querySelector(".gameWindow").classList.remove("is-active");
+//   console.log("Окно карт таро и настольных игр закрылось.");
+// });
 
-artsWindow.addEventListener("click", function () {
-  document.querySelector(".artsWindow").classList.add("is-active");
-  console.log("Окно интерьерных картин открылось.");
-});
+// artsWindow.addEventListener("click", function () {
+//   document.querySelector(".artsWindow").classList.add("is-active");
+//   console.log("Окно интерьерных картин открылось.");
+// });
 
-closeartWindow.addEventListener("click", function () {
-  document.querySelector(".artsWindow").classList.remove("is-active");
-  console.log("Окно интерьерных картин закрылось.");
-});
+// closeartWindow.addEventListener("click", function () {
+//   document.querySelector(".artsWindow").classList.remove("is-active");
+//   console.log("Окно интерьерных картин закрылось.");
+// });
 
 //Windows for contact info
 

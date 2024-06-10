@@ -151,7 +151,7 @@ ol {
 .set-bg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
 }
 
 .spad {
@@ -386,8 +386,8 @@ ol {
 }
 
 .hs-text span {
-  color: #e32879;
-  font-size: 16px;
+  color: #c8f199;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -498,6 +498,10 @@ ol {
   transition: transform 2s ease, opacity 2s ease;
 }
 
+.services-section .row {
+  place-content: center;
+}
+
 .service-item {
   text-align: center;
   background: #222222;
@@ -511,7 +515,6 @@ ol {
 
 .service-item:hover {
   border-bottom: 3px solid #e32879;
-  cursor: pointer;
 }
 
 .service-item h4 {
@@ -540,7 +543,7 @@ ol {
 }
 
 .portfolio-item {
-  height: 320px;
+  height: 350px;
   margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
